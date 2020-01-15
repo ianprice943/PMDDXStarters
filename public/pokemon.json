@@ -1,0 +1,181 @@
+{
+    "pokemon": [{
+            "name": "Bulbasaur",
+            "ability": "Overgrow",
+            "moves": {
+                "0": "Vine Whip",
+                "1": "Sludge",
+                "2": "Tackle",
+                "3": "Seed Bomb"
+            }
+        },
+        {
+            "name": "Charmander",
+            "ability": "Blaze",
+            "moves": {
+                "0": "Scratch",
+                "1": "Flame Burst",
+                "2": "Bite",
+                "3": "Dragon Rage"
+            }
+        },
+        {
+            "name": "Squirtle",
+            "ability": "Torrent",
+            "moves": {
+                "0": "Brick Break",
+                "1": "Water Gun",
+                "2": "Tackle",
+                "3": "Bite"
+            }
+        },
+        {
+            "name": "Pikachu",
+            "ability": "Static",
+            "moves": {
+                "0": "Fake Out",
+                "1": "Electro Ball",
+                "2": "Grass Knot",
+                "3": "Iron Tail"
+            }
+        },
+        {
+            "name": "Meowth",
+            "ability": [
+                "Pick Up",
+                "Technician"
+            ],
+            "moves": {
+                "0": "Scratch",
+                "1": "Fake Out",
+                "2": "Bite",
+                "3": "Foul Play"
+            }
+        },
+        {
+            "name": "Psyduck",
+            "ability": [
+                "Cloud Nine",
+                "Damp"
+            ],
+            "moves": {
+                "0": "Scratch",
+                "1": "Water Gun",
+                "2": "Confusion",
+                "3": "Zen Headbutt"
+            }
+        },
+        {
+            "name": "Machop",
+            "ability": [
+                "No Guard",
+                "Guts"
+            ],
+            "moves": {
+                "0": "Bullet Punch",
+                "1": "Brick Break",
+                "2": "Karate Chop",
+                "3": "Strength"
+            }
+        },
+        {
+            "name": "Cubone",
+            "ability": [
+                "Rock Head",
+                "Lightning Rod"
+            ],
+            "moves": {
+                "0": "Headbutt",
+                "1": "Bone Club",
+                "2": "Brutal Swing",
+                "3": "Brick Break"
+            }
+        },
+        {
+            "name": "Eevee",
+            "ability": [
+                "Run Away",
+                "Adaptability"
+            ],
+            "moves": {
+                "0": "Bite",
+                "1": "Tackle",
+                "2": "Swift",
+                "3": "Quick Attack"
+            }
+        },
+        {
+            "name": "Chikorita",
+            "ability": "Overgrow",
+            "moves": {
+                "0": "Ancient Power",
+                "1": "Razor Leaf",
+                "2": "Tackle",
+                "3": "Grass Knot"
+            }
+        },
+        {
+            "name": "Cyndaquil",
+            "ability": "Blaze",
+            "moves": {
+                "0": "Quick Attack",
+                "1": "Ember",
+                "2": "Double Kick",
+                "3": "Facade"
+            }
+        },
+        {
+            "name": "Totodoile",
+            "ability": "Torrent",
+            "moves": {
+                "0": "Metal Claw",
+                "1": "Water Gun",
+                "2": "Ice Fang",
+                "3": "Scratch"
+            }
+        },
+        {
+            "name": "Treecko",
+            "ability": "Overgrow",
+            "moves": {
+                "0": "Quick Attack",
+                "1": "Absorb",
+                "2": "Dragon Breath",
+                "3": "Iron Tail"
+            }
+        },
+        {
+            "name": "Torchic",
+            "ability": "Blaze",
+            "moves": {
+                "0": "Quick Attack",
+                "1": "Ember",
+                "2": "Low Kick",
+                "3": "Peck"
+            }
+        },
+        {
+            "name": "Mudkip",
+            "ability": "Torrent",
+            "moves": {
+                "0": "Mud Bomb",
+                "1": "Water Gun",
+                "2": "Tackle",
+                "3": "Mud Slap"
+            }
+        },
+        {
+            "name": "Skitty",
+            "ability": [
+                "Cute Charm",
+                "Normalize"
+            ],
+            "moves": {
+                "0": "Fake Out",
+                "1": "Echoed Voice",
+                "2": "Charge Beam",
+                "3": "Grass Knot"
+            }
+        }
+    ]
+}
