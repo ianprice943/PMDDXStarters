@@ -11,7 +11,7 @@ export default {
         pokemon: String
     }
 }
-// json for basic info can be found at http://www.objgen.com/json/models/LB8
+// pokemon.json generated at http://www.objgen.com/json/models/LB8
 </script>
 
 <style scoped>
