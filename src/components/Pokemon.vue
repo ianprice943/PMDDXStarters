@@ -8,7 +8,7 @@
 export default {
     name: 'Pokemon',
     props: {
-        pokemon: String
+        pokemon: String,
     }
 }
 // pokemon.json generated at http://www.objgen.com/json/models/LB8
