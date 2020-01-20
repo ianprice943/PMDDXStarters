@@ -1,6 +1,7 @@
 {
     "pokemon": [{
             "name": "Bulbasaur",
+            "type": ["Grass", "Poison"],
             "ability": "Overgrow",
             "moves": {
                 "0": "Vine Whip",
@@ -11,6 +12,7 @@
         },
         {
             "name": "Charmander",
+            "type:": ["Fire"],
             "ability": "Blaze",
             "moves": {
                 "0": "Scratch",
@@ -21,6 +23,7 @@
         },
         {
             "name": "Squirtle",
+            "type": ["Water"],
             "ability": "Torrent",
             "moves": {
                 "0": "Brick Break",
@@ -31,6 +34,7 @@
         },
         {
             "name": "Pikachu",
+            "type": ["Electric"],
             "ability": "Static",
             "moves": {
                 "0": "Fake Out",
@@ -41,6 +45,7 @@
         },
         {
             "name": "Meowth",
+            "type": ["Normal"],
             "ability": [
                 "Pick Up",
                 "Technician"
@@ -54,6 +59,7 @@
         },
         {
             "name": "Psyduck",
+            "type": ["Water"],
             "ability": [
                 "Cloud Nine",
                 "Damp"
@@ -67,6 +73,7 @@
         },
         {
             "name": "Machop",
+            "type": ["Fighting"],
             "ability": [
                 "No Guard",
                 "Guts"
@@ -80,6 +87,7 @@
         },
         {
             "name": "Cubone",
+            "type": ["Ground"],
             "ability": [
                 "Rock Head",
                 "Lightning Rod"
@@ -93,6 +101,7 @@
         },
         {
             "name": "Eevee",
+            "type": ["Normal"],
             "ability": [
                 "Run Away",
                 "Adaptability"
@@ -106,6 +115,7 @@
         },
         {
             "name": "Chikorita",
+            "type": ["Grass"],
             "ability": "Overgrow",
             "moves": {
                 "0": "Ancient Power",
@@ -116,6 +126,7 @@
         },
         {
             "name": "Cyndaquil",
+            "type": ["Fire"],
             "ability": "Blaze",
             "moves": {
                 "0": "Quick Attack",
@@ -126,6 +137,7 @@
         },
         {
             "name": "Totodoile",
+            "type": ["Water"],
             "ability": "Torrent",
             "moves": {
                 "0": "Metal Claw",
@@ -136,6 +148,7 @@
         },
         {
             "name": "Treecko",
+            "type": ["Grass"],
             "ability": "Overgrow",
             "moves": {
                 "0": "Quick Attack",
@@ -146,6 +159,7 @@
         },
         {
             "name": "Torchic",
+            "type": ["Fire"],
             "ability": "Blaze",
             "moves": {
                 "0": "Quick Attack",
@@ -156,6 +170,7 @@
         },
         {
             "name": "Mudkip",
+            "type": ["Water"],
             "ability": "Torrent",
             "moves": {
                 "0": "Mud Bomb",
@@ -166,6 +181,7 @@
         },
         {
             "name": "Skitty",
+            "type": ["Normal"],
             "ability": [
                 "Cute Charm",
                 "Normalize"
