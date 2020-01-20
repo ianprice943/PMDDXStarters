@@ -33,10 +33,6 @@
             "description": "Allows Pokémon to ignore stat modifications to accuracy and evasion."
         },
         {
-            "name": "Normalize",
-            "description": "Enables the Pokémon to use all of its moves as if they were Normal-type moves."
-        },
-        {
             "name": "Overgrow",
             "description": "Boosts the power of Grass-type moves when HP is low."
         },

@@ -1,0 +1,404 @@
+{
+    "moves": [
+        {
+            "name": "Absorb",
+            "description": "",
+            "type": "Grass",
+            "category": "Special",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Ancient Power",
+            "description": "",
+            "type": "Rock",
+            "category": "Special",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Bite",
+            "description": "",
+            "type": "Dark",
+            "category": "Physical",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Bone Club",
+            "description": "",
+            "type": "Ground",
+            "category": "Physical",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Brick Break",
+            "description": "",
+            "type": "Fighting",
+            "category": "Physical",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Brutal Swing",
+            "description": "",
+            "type": "Dark",
+            "category": "Physical",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Bullet Punch",
+            "description": "",
+            "type": "Steel",
+            "category": "Physical",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Charge Beam",
+            "description": "",
+            "type": "Electric",
+            "category": "Special",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Confusion",
+            "description": "",
+            "type": "Psychic",
+            "category": "Special",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Double Kick",
+            "description": "",
+            "type": "Fighting",
+            "category": "Physical",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Dragon Breath",
+            "description": "",
+            "type": "Dragon",
+            "category": "Special",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Dragon Rage",
+            "description": "",
+            "type": "Dragon",
+            "category": "Special",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Echoed Voice",
+            "description": "",
+            "type": "Normal",
+            "category": "Special",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Electro Ball",
+            "description": "",
+            "type": "Electric",
+            "category": "Special",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Ember",
+            "description": "",
+            "type": "Fire",
+            "category": "Special",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Facade",
+            "description": "",
+            "type": "Normal",
+            "category": "Physical",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Fake Out",
+            "description": "",
+            "type": "Normal",
+            "category": "Physical",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Flame Burst",
+            "description": "",
+            "type": "Fire",
+            "category": "Special",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Foul Play",
+            "description": "",
+            "type": "Dark",
+            "category": "Physical",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Grass Knot",
+            "description": "",
+            "type": "Grass",
+            "category": "Special",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Headbutt",
+            "description": "",
+            "type": "Normal",
+            "category": "Physical",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Ice Fang",
+            "description": "",
+            "type": "Ice",
+            "category": "Physical",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Iron Tail",
+            "description": "",
+            "type": "Steel",
+            "category": "Physical",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Karate Chop",
+            "description": "",
+            "type": "Fighting",
+            "category": "Physical",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Low Kick",
+            "description": "",
+            "type": "Fighting",
+            "category": "Physical",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Metal Claw",
+            "description": "",
+            "type": "Steel",
+            "category": "Physical",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Mud Bomb",
+            "description": "",
+            "type": "Ground",
+            "category": "Special",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Mud Slap",
+            "description": "",
+            "type": "Ground",
+            "category": "Special",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Peck",
+            "description": "",
+            "type": "Flying",
+            "category": "Physical",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Razor Leaf",
+            "description": "",
+            "type": "Grass",
+            "category": "Physical",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Quick Attack",
+            "description": "",
+            "type": "Normal",
+            "category": "Physical",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Scratch",
+            "description": "",
+            "type": "Normal",
+            "category": "Physical",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Seed Bomb",
+            "description": "",
+            "type": "Grass",
+            "category": "Physical",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Sludge",
+            "description": "",
+            "type": "Poison",
+            "category": "Special",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Strength",
+            "description": "",
+            "type": "Normal",
+            "category": "Physical",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Swift",
+            "description": "",
+            "type": "Normal",
+            "category": "Special",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Tackle",
+            "description": "",
+            "type": "Normal",
+            "category": "Physical",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Vine Whip",
+            "description": "",
+            "type": "Grass",
+            "category": "Physical",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Water Gun",
+            "description": "",
+            "type": "Water",
+            "category": "Special",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+        {
+            "name": "Zed Headbutt",
+            "description": "",
+            "type": "Psychic",
+            "category": "",
+            "powerpoints": "",
+            "power": "",
+            "accuracy": "",
+            "range": ""
+        },
+    ]
+}

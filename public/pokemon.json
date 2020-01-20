@@ -3,7 +3,7 @@
         {
             "name": "Bulbasaur",
             "type": ["Grass", "Poison"],
-            "ability": "Overgrow",
+            "ability": ["Overgrow"],
             "moves": {
                 "0": "Vine Whip",
                 "1": "Sludge",
@@ -14,7 +14,7 @@
         {
             "name": "Charmander",
             "type:": ["Fire"],
-            "ability": "Blaze",
+            "ability": ["Blaze"],
             "moves": {
                 "0": "Scratch",
                 "1": "Flame Burst",
@@ -25,7 +25,7 @@
         {
             "name": "Squirtle",
             "type": ["Water"],
-            "ability": "Torrent",
+            "ability": ["Torrent"],
             "moves": {
                 "0": "Brick Break",
                 "1": "Water Gun",
@@ -36,7 +36,7 @@
         {
             "name": "Pikachu",
             "type": ["Electric"],
-            "ability": "Static",
+            "ability": ["Static"],
             "moves": {
                 "0": "Fake Out",
                 "1": "Electro Ball",
@@ -47,10 +47,7 @@
         {
             "name": "Meowth",
             "type": ["Normal"],
-            "ability": [
-                "Pick Up",
-                "Technician"
-            ],
+            "ability": ["Pick Up"],
             "moves": {
                 "0": "Scratch",
                 "1": "Fake Out",
@@ -61,10 +58,7 @@
         {
             "name": "Psyduck",
             "type": ["Water"],
-            "ability": [
-                "Cloud Nine",
-                "Damp"
-            ],
+            "ability": ["Cloud Nine", "Damp"],
             "moves": {
                 "0": "Scratch",
                 "1": "Water Gun",
@@ -75,10 +69,7 @@
         {
             "name": "Machop",
             "type": ["Fighting"],
-            "ability": [
-                "No Guard",
-                "Guts"
-            ],
+            "ability": ["No Guard", "Guts"],
             "moves": {
                 "0": "Bullet Punch",
                 "1": "Brick Break",
@@ -89,10 +80,7 @@
         {
             "name": "Cubone",
             "type": ["Ground"],
-            "ability": [
-                "Rock Head",
-                "Lightning Rod"
-            ],
+            "ability": ["Rock Head", "Lightning Rod"],
             "moves": {
                 "0": "Headbutt",
                 "1": "Bone Club",
@@ -103,10 +91,7 @@
         {
             "name": "Eevee",
             "type": ["Normal"],
-            "ability": [
-                "Run Away",
-                "Adaptability"
-            ],
+            "ability": ["Run Away", "Adaptability"],
             "moves": {
                 "0": "Bite",
                 "1": "Tackle",
@@ -117,7 +102,7 @@
         {
             "name": "Chikorita",
             "type": ["Grass"],
-            "ability": "Overgrow",
+            "ability": ["Overgrow"],
             "moves": {
                 "0": "Ancient Power",
                 "1": "Razor Leaf",
@@ -128,7 +113,7 @@
         {
             "name": "Cyndaquil",
             "type": ["Fire"],
-            "ability": "Blaze",
+            "ability": ["Blaze"],
             "moves": {
                 "0": "Quick Attack",
                 "1": "Ember",
@@ -139,7 +124,7 @@
         {
             "name": "Totodoile",
             "type": ["Water"],
-            "ability": "Torrent",
+            "ability": ["Torrent"],
             "moves": {
                 "0": "Metal Claw",
                 "1": "Water Gun",
@@ -150,7 +135,7 @@
         {
             "name": "Treecko",
             "type": ["Grass"],
-            "ability": "Overgrow",
+            "ability": ["Overgrow"],
             "moves": {
                 "0": "Quick Attack",
                 "1": "Absorb",
@@ -161,7 +146,7 @@
         {
             "name": "Torchic",
             "type": ["Fire"],
-            "ability": "Blaze",
+            "ability": ["Blaze"],
             "moves": {
                 "0": "Quick Attack",
                 "1": "Ember",
@@ -172,7 +157,7 @@
         {
             "name": "Mudkip",
             "type": ["Water"],
-            "ability": "Torrent",
+            "ability": ["Torrent"],
             "moves": {
                 "0": "Mud Bomb",
                 "1": "Water Gun",
@@ -183,10 +168,7 @@
         {
             "name": "Skitty",
             "type": ["Normal"],
-            "ability": [
-                "Cute Charm",
-                "Normalize"
-            ],
+            "ability": ["Cute Charm"],
             "moves": {
                 "0": "Fake Out",
                 "1": "Echoed Voice",
