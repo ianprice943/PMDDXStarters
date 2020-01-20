@@ -1,0 +1,64 @@
+{
+    "abilities" [
+        {
+            "name": "Adaptability",
+            "description": "Boosts the power of the Pokémon's moves that match its type."
+        },
+        {
+            "name": "Blaze",
+            "description": "Boosts the power of Fire-type moves when HP is low."
+        },
+        {
+            "name": "Cloud Nine",
+            "description": "Changes the weather to clear."
+        },
+        {
+            "name": "Cute Charm",
+            "description": "Causes attackers to become infatuated."
+        },
+        {
+            "name": "Damp",
+            "description": "Prevents any explosions on the dungeon floor."
+        },
+        {
+            "name": "Guts",
+            "description": "Boosts Attack if the Pokémon has any status problems."
+        },
+        {
+            "name": "Lightning Rod",
+            "description": "Attracts Electric-type moves."
+        },
+        {
+            "name": "No Guard",
+            "description": "Allows Pokémon to ignore stat modifications to accuracy and evasion."
+        },
+        {
+            "name": "Normalize",
+            "description": "Enables the Pokémon to use all of its moves as if they were Normal-type moves."
+        },
+        {
+            "name": "Overgrow",
+            "description": "Boosts the power of Grass-type moves when HP is low."
+        },
+        {
+            "name": "Pick Up",
+            "description": "Finds items if the Pokémon is not holding anything."
+        },
+        {
+            "name": "Rock Head",
+            "description": "Prevents damage from the recoil of moves such as Take Down."
+        },
+        {
+            "name": "Run Away",
+            "description": "Becomes terrified and flees when HP gets low. Leaders will resist this urge."
+        },
+        {
+            "name": "Static",
+            "description": "Paralyzes attackers."
+        },
+        {
+            "name": "Torrent",
+            "description": "Boosts the power of Water-type moves when HP is low."
+        }
+    ]
+}

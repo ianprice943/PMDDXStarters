@@ -1,5 +1,6 @@
 {
-    "pokemon": [{
+    "pokemon": [
+        {
             "name": "Bulbasaur",
             "type": ["Grass", "Poison"],
             "ability": "Overgrow",
