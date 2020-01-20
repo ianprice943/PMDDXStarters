@@ -1,29 +1,62 @@
 <template>
-    <div class="pokemon">
-        <h2>{{ $route.params.pokemon }}</h2>
-    </div>
+  <div class="pokemon">
+    <h2>{{ pokemon }}</h2>
+    <p>{{ type }}</p>
+  </div>
 </template>
 
 <script>
-export default {
+  export default {
     name: 'Pokemon',
-    data() {
-        return {
-            pokemon: '',
-            type: '',
-            ability: '',
-            moves: []
-        }
+    props: {
+      pokemon: String
     },
-    methods() {
-        
+    data() {
+      return {
+        pokemonJSON: Object,
+        movesJSON: Object,
+        abilitiesJSON: Object,
+        type: [],
+        ability: '',
+        moves: []
+      }
+    },
+    methods: {
+      getPokemonJSON: function() {
+        this.pokemonJSON = async () => {
+          let json = await fetch('../public/pokemon.json').json();
+          return json;
+        };
+      },
+      getAbilitiesJSON: function() {
+        this.abilitiesJSON = async () => {
+          let json = await fetch('../public/abilities.json').json();
+          return json;
+        };
+      },
+      getMovesJSON: function() {
+        this.movesJSON = async () => {
+          let json = await fetch('../public/moves.json').json();
+          return json;
+        };
+      },
+      assignPokemonData: () => {
+        const name = this.pokemon;
+        this.type = this.pokemonJSON.pokemon[name].type;
+
+      }
+    },
+    beforeMount() {
+      this.getPokemonJSON();
+      this.getAbilitiesJSON();
+      this.getMovesJSON();
+      this.assignPokemonData();
     }
-}
-// pokemon.json generated at http://www.objgen.com/json/models/LB8
+  }
 </script>
 
 <style scoped>
-    .pokemon {
-        padding: 0 1em;
-    }
+  .pokemon {
+    padding: 0 1em;
+  }
 </style>

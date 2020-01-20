@@ -9,12 +9,14 @@ const routes = [{
     {
         path: '/Bulbasaur',
         name: 'Bulbasaur',
-        component: Pokemon
+        component: Pokemon,
+        props: { pokemon: 'Bulbasaur' }
     },
     {
         path: '/Charmander',
         name: 'Charmander',
-        component: Pokemon
+        component: Pokemon,
+        props: { pokemon: 'Charmander' }
     },
 ];
 

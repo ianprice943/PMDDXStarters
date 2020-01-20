@@ -1,7 +1,6 @@
 {
-    "pokemon": [
-        {
-            "name": "Bulbasaur",
+    "pokemon": {
+        "Bulbasaur": {
             "type": ["Grass", "Poison"],
             "ability": ["Overgrow"],
             "moves": {
@@ -11,8 +10,7 @@
                 "3": "Seed Bomb"
             }
         },
-        {
-            "name": "Charmander",
+        "Charmander": {
             "type:": ["Fire"],
             "ability": ["Blaze"],
             "moves": {
@@ -22,8 +20,7 @@
                 "3": "Dragon Rage"
             }
         },
-        {
-            "name": "Squirtle",
+        "Squirtle": {
             "type": ["Water"],
             "ability": ["Torrent"],
             "moves": {
@@ -33,8 +30,7 @@
                 "3": "Bite"
             }
         },
-        {
-            "name": "Pikachu",
+        "Pikachu": {
             "type": ["Electric"],
             "ability": ["Static"],
             "moves": {
@@ -44,8 +40,7 @@
                 "3": "Iron Tail"
             }
         },
-        {
-            "name": "Meowth",
+        "Meowth": {
             "type": ["Normal"],
             "ability": ["Pick Up"],
             "moves": {
@@ -55,8 +50,7 @@
                 "3": "Foul Play"
             }
         },
-        {
-            "name": "Psyduck",
+        "Psyduck": {
             "type": ["Water"],
             "ability": ["Cloud Nine", "Damp"],
             "moves": {
@@ -66,8 +60,7 @@
                 "3": "Zen Headbutt"
             }
         },
-        {
-            "name": "Machop",
+        "Machop": {
             "type": ["Fighting"],
             "ability": ["No Guard", "Guts"],
             "moves": {
@@ -77,8 +70,7 @@
                 "3": "Strength"
             }
         },
-        {
-            "name": "Cubone",
+        "Cubone": {
             "type": ["Ground"],
             "ability": ["Rock Head", "Lightning Rod"],
             "moves": {
@@ -88,8 +80,7 @@
                 "3": "Brick Break"
             }
         },
-        {
-            "name": "Eevee",
+        "Eevee": {
             "type": ["Normal"],
             "ability": ["Run Away", "Adaptability"],
             "moves": {
@@ -99,8 +90,7 @@
                 "3": "Quick Attack"
             }
         },
-        {
-            "name": "Chikorita",
+        "Chikorita": {
             "type": ["Grass"],
             "ability": ["Overgrow"],
             "moves": {
@@ -110,8 +100,7 @@
                 "3": "Grass Knot"
             }
         },
-        {
-            "name": "Cyndaquil",
+        "Cyndaquil": {
             "type": ["Fire"],
             "ability": ["Blaze"],
             "moves": {
@@ -121,8 +110,7 @@
                 "3": "Facade"
             }
         },
-        {
-            "name": "Totodoile",
+        "Totodile": {
             "type": ["Water"],
             "ability": ["Torrent"],
             "moves": {
@@ -132,8 +120,7 @@
                 "3": "Scratch"
             }
         },
-        {
-            "name": "Treecko",
+        "Treecko": {
             "type": ["Grass"],
             "ability": ["Overgrow"],
             "moves": {
@@ -143,8 +130,7 @@
                 "3": "Iron Tail"
             }
         },
-        {
-            "name": "Torchic",
+        "Torchic": {
             "type": ["Fire"],
             "ability": ["Blaze"],
             "moves": {
@@ -154,8 +140,7 @@
                 "3": "Peck"
             }
         },
-        {
-            "name": "Mudkip",
+        "Mudkip": {
             "type": ["Water"],
             "ability": ["Torrent"],
             "moves": {
@@ -165,8 +150,7 @@
                 "3": "Mud Slap"
             }
         },
-        {
-            "name": "Skitty",
+        "Skitty": {
             "type": ["Normal"],
             "ability": ["Cute Charm"],
             "moves": {
@@ -176,5 +160,5 @@
                 "3": "Grass Knot"
             }
         }
-    ]
+    }
 }

@@ -11,18 +11,17 @@ import SideBar from './components/SideBar.vue';
 export default {
   name: 'app',
   components: {
-    SideBar,
+    SideBar
+  },
+  data() {
+    return {
+      pokemonJSON: "",
+      movesJSON: "",
+      abilitiesJSON: ""
+    }
   },
   methods: {
-    getPokemonJSON: () => {
-      //TODO
-    },
-    getAbiliesJSON: () => {
-      //TODO
-    },
-    getMovesJSON: () => {
-      //TODO
-    }
+
   }
 }
 </script>

@@ -7,10 +7,10 @@
           <router-link :to="{ name: 'Home'}">Home</router-link>
         </li>
         <li>
-          <router-link :to="{ name: 'Bulbasaur', params: { pokemon: 'Bulbasaur' }}">Bulbasuar</router-link>
+          <router-link :to="{ name: 'Bulbasaur'}">Bulbasuar</router-link>
         </li>
         <li>
-          <router-link :to="{ name: 'Charmander', params: { pokemon: 'Charmander' }}">Charmander</router-link>
+          <router-link :to="{ name: 'Charmander'}">Charmander</router-link>
         </li>
       </ul>
     </nav>
