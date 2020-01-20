@@ -1,19 +1,28 @@
 <template>
   <div id="app">
     <SideBar />
-    <Home /><!--Main?-->
+    <router-view />
   </div>
 </template>
 
 <script>
-import Home from './components/Home.vue';
 import SideBar from './components/SideBar.vue';
 
 export default {
   name: 'app',
   components: {
     SideBar,
-    Home
+  },
+  methods: {
+    getPokemonJSON: () => {
+      //TODO
+    },
+    getAbiliesJSON: () => {
+      //TODO
+    },
+    getMovesJSON: () => {
+      //TODO
+    }
   }
 }
 </script>

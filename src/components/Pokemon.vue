@@ -1,14 +1,22 @@
 <template>
     <div class="pokemon">
-        <h2>{{ pokemon }}</h2>
+        <h2>{{ $route.params.pokemon }}</h2>
     </div>
 </template>
 
 <script>
 export default {
     name: 'Pokemon',
-    props: {
-        pokemon: String,
+    data() {
+        return {
+            pokemon: '',
+            type: '',
+            ability: '',
+            moves: []
+        }
+    },
+    methods() {
+        
     }
 }
 // pokemon.json generated at http://www.objgen.com/json/models/LB8
