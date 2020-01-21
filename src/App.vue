@@ -51,7 +51,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 1em;
+  margin: 2em;
 }
 #header {
   display: flex;
@@ -61,6 +61,8 @@ body {
 #main {
   display: flex;
   flex-direction: row;
+  width: 90%;
+  margin: auto;
 }
 #footer {
   display: flex;

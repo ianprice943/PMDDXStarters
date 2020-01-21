@@ -49,5 +49,7 @@
 <style scoped>
   #pokemon {
     padding: 0 1em;
+    width: 100%;
+    text-align: left;
   }
 </style>

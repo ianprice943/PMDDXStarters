@@ -17,6 +17,6 @@
   #footer-content {
     margin: 0 auto;
     font-size: .5em;
-    padding: 1em;
+    padding-top: 1em;
   }
 </style>

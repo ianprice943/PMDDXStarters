@@ -34,7 +34,6 @@
 <style scoped>
 
     #nav {
-        padding: 1em 0.8em;
         margin: auto 0;
         justify-content: flex-end;
     }

@@ -15,5 +15,6 @@
         font-weight: bold;
         margin: auto auto;
         width: 100%;
+        padding-left: 32px;
     }
 </style>
