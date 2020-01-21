@@ -11,7 +11,7 @@
             }
         },
         "Charmander": {
-            "type:": ["Fire"],
+            "type": ["Fire"],
             "ability": ["Blaze"],
             "moves": {
                 "0": "Scratch",

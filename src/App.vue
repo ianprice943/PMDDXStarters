@@ -1,17 +1,32 @@
 <template>
   <div id="app">
-    <SideBar />
-    <router-view />
+    <div id="header">
+      <Title />
+      <NavButton />
+    </div>
+    <div id="main">
+      <SideBar />
+      <router-view />
+    </div>
+    <div id="footer">
+      <Footer />
+    </div>
   </div>
 </template>
 
 <script>
 import SideBar from './components/SideBar.vue';
+import Title from './components/Title.vue'
+import Footer from './components/Footer.vue'
+import NavButton from './components/NavButton.vue'
 
 export default {
   name: 'app',
   components: {
-    SideBar
+    NavButton,
+    SideBar,
+    Title,
+    Footer,
   },
   data() {
     return {
@@ -27,6 +42,9 @@ export default {
 </script>
 
 <style>
+body {
+  margin: 0 !important;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -34,10 +52,18 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 1em;
+}
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#main {
   display: flex;
   flex-direction: row;
 }
-body {
-  margin: 0 !important;
+#footer {
+  display: flex;
+  flex-direction: row;
 }
 </style>

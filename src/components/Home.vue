@@ -1,11 +1,11 @@
 <template>
   <div class="home">
-    <h2>Welcome to the Pokemon Mystery Dungeon DX Starters App</h2>
+    <h2>Welcome to the PMDDX Starters App</h2>
     <p>
       This app is to help players understand who can be a starter in PMDDX, as well as what each starter brings to the table.
     </p>
     <p>
-      Choose a pokemon in the side bar to get started!
+      Choose a pokemon from the navigation menu in the top right to get started!
     </p>
   </div>
 </template>
