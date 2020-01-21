@@ -1,4 +1,4 @@
-# Pokemon Mystery Dungeon DX Starts
+# Pokemon Mystery Dungeon DX Starters
 
 ## Project setup
 ```
