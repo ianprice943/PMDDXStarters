@@ -12,6 +12,9 @@
         <li>
           <router-link :to="{ name: 'Charmander'}">Charmander</router-link>
         </li>
+        <li>
+          <router-link :to="{ name: 'Squirtle'}">Squirtle</router-link>
+        </li>
       </ul>
     </nav>
   </div>

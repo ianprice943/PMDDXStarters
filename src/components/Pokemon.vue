@@ -29,7 +29,6 @@
         this.types = pokemonJSON.pokemon[name].type;
         this.abilities = pokemonJSON.pokemon[name].ability;
         this.moves = pokemonJSON.pokemon[name].moves;
-
       }
     },
     beforeMount() {

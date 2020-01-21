@@ -1,7 +1,8 @@
 import Home from './components/Home.vue';
 import Pokemon from './components/Pokemon.vue';
 
-const routes = [{
+const routes = [
+    {
         path: '/',
         name: 'Home',
         component: Home
@@ -17,6 +18,12 @@ const routes = [{
         name: 'Charmander',
         component: Pokemon,
         props: { pokemon: 'Charmander' }
+    },
+    {
+        path: '/Squirtle',
+        name: 'Squirtle',
+        component: Pokemon,
+        props: { pokemon: 'Squirtle' }
     },
 ];
 
