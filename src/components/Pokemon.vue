@@ -1,11 +1,16 @@
 <template>
   <div class="pokemon">
     <h2>{{ pokemon }}</h2>
-    <p>{{ type }}</p>
+    <p v-for="type in types" v-bind:key="type">{{ type }}</p>
+    <p v-for="ability in abilities" v-bind:key="ability">{{ ability }}</p>
+    <p v-for="move in moves" v-bind:key="move">{{ move }}</p>
   </div>
 </template>
 
 <script>
+  import pokemonJSON from '../../public/pokemon.json';
+  //import abilitiesJSON from '../../public/abilities.json';
+  //import movesJSON from '../../public/moves.json';
   export default {
     name: 'Pokemon',
     props: {
@@ -13,43 +18,21 @@
     },
     data() {
       return {
-        pokemonJSON: Object,
-        movesJSON: Object,
-        abilitiesJSON: Object,
-        type: [],
-        ability: '',
+        types: [],
+        abilities: [],
         moves: []
       }
     },
     methods: {
-      getPokemonJSON: function() {
-        this.pokemonJSON = async () => {
-          let json = await fetch('../public/pokemon.json').json();
-          return json;
-        };
-      },
-      getAbilitiesJSON: function() {
-        this.abilitiesJSON = async () => {
-          let json = await fetch('../public/abilities.json').json();
-          return json;
-        };
-      },
-      getMovesJSON: function() {
-        this.movesJSON = async () => {
-          let json = await fetch('../public/moves.json').json();
-          return json;
-        };
-      },
-      assignPokemonData: () => {
+      assignPokemonData: function() {
         const name = this.pokemon;
-        this.type = this.pokemonJSON.pokemon[name].type;
+        this.types = pokemonJSON.pokemon[name].type;
+        this.abilities = pokemonJSON.pokemon[name].ability;
+        this.moves = pokemonJSON.pokemon[name].moves;
 
       }
     },
     beforeMount() {
-      this.getPokemonJSON();
-      this.getAbilitiesJSON();
-      this.getMovesJSON();
       this.assignPokemonData();
     }
   }

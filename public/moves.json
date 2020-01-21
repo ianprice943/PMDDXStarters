@@ -1,7 +1,6 @@
 {
-    "moves": [
-        {
-            "name": "Absorb",
+    "moves": {
+        "Absorb": {
             "description": "",
             "type": "Grass",
             "category": "Special",
@@ -10,8 +9,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Ancient Power",
+        "Ancient Power": {
             "description": "",
             "type": "Rock",
             "category": "Special",
@@ -20,8 +18,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Bite",
+        "Bite": {
             "description": "",
             "type": "Dark",
             "category": "Physical",
@@ -30,8 +27,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Bone Club",
+        "Bone Club": {
             "description": "",
             "type": "Ground",
             "category": "Physical",
@@ -40,8 +36,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Brick Break",
+        "Brick Break": {
             "description": "",
             "type": "Fighting",
             "category": "Physical",
@@ -50,8 +45,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Brutal Swing",
+        "Brutal Swing": {
             "description": "",
             "type": "Dark",
             "category": "Physical",
@@ -60,8 +54,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Bullet Punch",
+        "Bullet Punch": {
             "description": "",
             "type": "Steel",
             "category": "Physical",
@@ -70,8 +63,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Charge Beam",
+        "Charge Beam": {
             "description": "",
             "type": "Electric",
             "category": "Special",
@@ -80,8 +72,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Confusion",
+        "Confusion": {
             "description": "",
             "type": "Psychic",
             "category": "Special",
@@ -90,8 +81,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Double Kick",
+        "Double Kick": {
             "description": "",
             "type": "Fighting",
             "category": "Physical",
@@ -100,8 +90,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Dragon Breath",
+        "Dragon Breath": {
             "description": "",
             "type": "Dragon",
             "category": "Special",
@@ -110,8 +99,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Dragon Rage",
+        "Dragon Rage": {
             "description": "",
             "type": "Dragon",
             "category": "Special",
@@ -120,8 +108,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Echoed Voice",
+        "Echoed Voice": {
             "description": "",
             "type": "Normal",
             "category": "Special",
@@ -130,8 +117,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Electro Ball",
+        "Electro Ball": {
             "description": "",
             "type": "Electric",
             "category": "Special",
@@ -140,8 +126,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Ember",
+        "Ember": {
             "description": "",
             "type": "Fire",
             "category": "Special",
@@ -150,8 +135,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Facade",
+        "Facade": {
             "description": "",
             "type": "Normal",
             "category": "Physical",
@@ -160,8 +144,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Fake Out",
+        "Fake Out": {
             "description": "",
             "type": "Normal",
             "category": "Physical",
@@ -170,8 +153,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Flame Burst",
+        "Flame Burst": {
             "description": "",
             "type": "Fire",
             "category": "Special",
@@ -180,8 +162,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Foul Play",
+        "Foul Play": {
             "description": "",
             "type": "Dark",
             "category": "Physical",
@@ -190,8 +171,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Grass Knot",
+        "Grass Knot": {
             "description": "",
             "type": "Grass",
             "category": "Special",
@@ -200,8 +180,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Headbutt",
+        "Headbutt": {
             "description": "",
             "type": "Normal",
             "category": "Physical",
@@ -210,8 +189,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Ice Fang",
+        "Ice Fang": {
             "description": "",
             "type": "Ice",
             "category": "Physical",
@@ -220,8 +198,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Iron Tail",
+        "Iron Tail": {
             "description": "",
             "type": "Steel",
             "category": "Physical",
@@ -230,8 +207,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Karate Chop",
+        "Karate Chop": {
             "description": "",
             "type": "Fighting",
             "category": "Physical",
@@ -240,8 +216,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Low Kick",
+        "Low Kick": {
             "description": "",
             "type": "Fighting",
             "category": "Physical",
@@ -250,8 +225,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Metal Claw",
+        "Metal Claw": {
             "description": "",
             "type": "Steel",
             "category": "Physical",
@@ -260,8 +234,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Mud Bomb",
+        "Mud Bomb": {
             "description": "",
             "type": "Ground",
             "category": "Special",
@@ -270,8 +243,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Mud Slap",
+        "Mud Slap": {
             "description": "",
             "type": "Ground",
             "category": "Special",
@@ -280,8 +252,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Peck",
+        "Peck": {
             "description": "",
             "type": "Flying",
             "category": "Physical",
@@ -290,8 +261,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Razor Leaf",
+        "Razor Leaf": {
             "description": "",
             "type": "Grass",
             "category": "Physical",
@@ -300,8 +270,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Quick Attack",
+        "Quick Attack": {
             "description": "",
             "type": "Normal",
             "category": "Physical",
@@ -310,8 +279,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Scratch",
+        "Scratch": {
             "description": "",
             "type": "Normal",
             "category": "Physical",
@@ -320,8 +288,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Seed Bomb",
+        "Seed Bomb": {
             "description": "",
             "type": "Grass",
             "category": "Physical",
@@ -330,8 +297,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Sludge",
+        "Sludge": {
             "description": "",
             "type": "Poison",
             "category": "Special",
@@ -340,8 +306,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Strength",
+        "Strength": {
             "description": "",
             "type": "Normal",
             "category": "Physical",
@@ -350,8 +315,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Swift",
+        "Swift": {
             "description": "",
             "type": "Normal",
             "category": "Special",
@@ -360,8 +324,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Tackle",
+        "Tackle": {
             "description": "",
             "type": "Normal",
             "category": "Physical",
@@ -370,8 +333,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Vine Whip",
+        "Vine Whip": {
             "description": "",
             "type": "Grass",
             "category": "Physical",
@@ -380,8 +342,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Water Gun",
+        "Water Gun": {
             "description": "",
             "type": "Water",
             "category": "Special",
@@ -390,8 +351,7 @@
             "accuracy": "",
             "range": ""
         },
-        {
-            "name": "Zed Headbutt",
+        "Zen Headbutt": {
             "description": "",
             "type": "Psychic",
             "category": "",
@@ -399,6 +359,6 @@
             "power": "",
             "accuracy": "",
             "range": ""
-        },
-    ]
+        }
+    }
 }
