@@ -1,46 +1,18 @@
 {
     "abilities": {
-        "Adaptablity": {
-            "description": "Boosts the power of the Pokémon's moves that match its type."
-        },
-        "Blaze": {
-            "description": "Boosts the power of Fire-type moves when HP is low."
-        },
-        "Cloud Nine": {
-            "description": "Changes the weather to clear."
-        },
-        "Cute Charm": {
-            "description": "Causes attackers to become infatuated."
-        },
-        "Damp": {
-            "description": "Prevents any explosions on the dungeon floor."
-        },
-        "Guts": {
-            "description": "Boosts Attack if the Pokémon has any status problems."
-        },
-        "Lightning Rod": {
-            "description": "Attracts Electric-type moves."
-        },
-        "No Guard": {
-            "description": "Allows Pokémon to ignore stat modifications to accuracy and evasion."
-        },
-        "Overgrow": {
-            "description": "Boosts the power of Grass-type moves when HP is low."
-        },
-        "Pick Up": {
-            "description": "Finds items if the Pokémon is not holding anything."
-        },
-        "Rock Head": {
-            "description": "Prevents damage from the recoil of moves such as Take Down."
-        },
-        "Run Away": {
-            "description": "Becomes terrified and flees when HP gets low. Leaders will resist this urge."
-        },
-        "Static": {
-            "description": "Paralyzes attackers."
-        },
-        "Torrent": {
-            "description": "Boosts the power of Water-type moves when HP is low."
-        }
+        "Adaptablity": "Boosts the power of the Pokémon's moves that match its type.",
+        "Blaze": "Boosts the power of Fire-type moves when HP is low.",
+        "Cloud Nine": "Changes the weather to clear.",
+        "Cute Charm": "Causes attackers to become infatuated.",
+        "Damp": "Prevents any explosions on the dungeon floor.",
+        "Guts": "Boosts Attack if the Pokémon has any status problems.",
+        "Lightning Rod": "Attracts Electric-type moves.",
+        "No Guard": "Allows Pokémon to ignore stat modifications to accuracy and evasion.",
+        "Overgrow": "Boosts the power of Grass-type moves when HP is low.",
+        "Pick Up": "Finds items if the Pokémon is not holding anything.",
+        "Rock Head": "Prevents damage from the recoil of moves such as Take Down.",
+        "Run Away": "Becomes terrified and flees when HP gets low. Leaders will resist this urge.",
+        "Static": "Paralyzes attackers.",
+        "Torrent": "Boosts the power of Water-type moves when HP is low."
     }
 }

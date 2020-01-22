@@ -22,12 +22,6 @@
             curPokemon: String,
             curPokemonTypes: Array,
         },
-        data() {
-            return {
-                pictureURL: String,
-                typeURLs: [],
-            }
-        },
         methods: {
             getPokemonURL: function (name) {
                 return require('../assets/' + name + ".png");

@@ -2,7 +2,8 @@
   <div id="pokemon">
     <h2>{{ pokemon }}</h2>
     <Pictures v-bind:curPokemon=pokemon v-bind:curPokemonTypes=types />
-    <p v-for="ability in abilities" v-bind:key="ability">{{ ability }}</p>
+    <Ability v-bind:abilityNames=abilities />
+    <Moves v-bind:curMoves=moves />
     <p v-for="move in moves" v-bind:key="move">{{ move }}</p>
   </div>
 </template>
@@ -10,12 +11,14 @@
 <script>
   import pokemonJSON from '../../public/pokemon.json';
   import Pictures from './Pictures.vue';
-  //import abilitiesJSON from '../../public/abilities.json';
-  //import movesJSON from '../../public/moves.json';
+  import Ability from './Ability.vue';
+  import Moves from './Moves.vue';
   export default {
     name: 'Pokemon',
     components: {
       Pictures,
+      Ability,
+      Moves
     },
     props: {
       pokemon: String
