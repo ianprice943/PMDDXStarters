@@ -4,7 +4,6 @@
     <Pictures v-bind:curPokemon=pokemon v-bind:curPokemonTypes=types />
     <Ability v-bind:abilityNames=abilities />
     <Moves v-bind:curMoves=moves />
-    <p v-for="move in moves" v-bind:key="move">{{ move }}</p>
   </div>
 </template>
 

@@ -3,11 +3,9 @@
         <div>
             <h3>Ability</h3>
         </div>
-        <div id="ability-box" v-for="ability in abilityDescriptions" v-bind:key="ability">
-            <div v-for="(description, name) in ability" v-bind:key="name" v-bind:value="description">
-                <div class="ability-title">{{ name }}</div>
-                <div>{{ description }}</div>
-            </div>
+        <div id="ability-box" v-for="(description, name) in abilityDescriptions" v-bind:key="name">
+            <div class="ability-title">{{ name }}</div>
+            <div>{{ description }}</div>
         </div>
     </div>
 </template>
@@ -26,19 +24,17 @@ export default {
     },
     data() {
         return {
-            abilityDescriptions: [],
+            abilityDescriptions: {},
         }
     },
     methods: {
         getAbilities: function(abilityNames) {
-            this.abilityDescriptions = [];
+            this.abilityDescriptions = {};
             abilityNames.forEach(abilityName => this.pushAbility(abilityName));
         },
         pushAbility: function(abilityName) {
             let description = abilitiesJSON.abilities[abilityName];
-            let abilityObject = {};
-            abilityObject[abilityName] = description;
-            this.abilityDescriptions.push(abilityObject);
+            this.abilityDescriptions[abilityName] = description;
         }
     },
     beforeMount() {
