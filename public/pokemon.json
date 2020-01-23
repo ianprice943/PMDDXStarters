@@ -3,162 +3,162 @@
         "Bulbasaur": {
             "type": ["Grass", "Poison"],
             "ability": ["Overgrow"],
-            "moves": {
-                "0": "Vine Whip",
-                "1": "Sludge",
-                "2": "Tackle",
-                "3": "Seed Bomb"
-            }
+            "moves": [
+                "Vine Whip",
+                "Sludge",
+                "Tackle",
+                "Seed Bomb"
+            ]
         },
         "Charmander": {
             "type": ["Fire"],
             "ability": ["Blaze"],
-            "moves": {
-                "0": "Scratch",
-                "1": "Flame Burst",
-                "2": "Bite",
-                "3": "Dragon Rage"
-            }
+            "moves": [
+                "Scratch",
+                "Flame Burst",
+                "Bite",
+                "Dragon Rage"
+            ]
         },
         "Squirtle": {
             "type": ["Water"],
             "ability": ["Torrent"],
-            "moves": {
-                "0": "Brick Break",
-                "1": "Water Gun",
-                "2": "Tackle",
-                "3": "Bite"
-            }
+            "moves": [
+                "Brick Break",
+                "Water Gun",
+                "Tackle",
+                "Bite"
+            ]
         },
         "Pikachu": {
             "type": ["Electric"],
             "ability": ["Static"],
-            "moves": {
-                "0": "Fake Out",
-                "1": "Electro Ball",
-                "2": "Grass Knot",
-                "3": "Iron Tail"
-            }
+            "moves": [
+                "Fake Out",
+                "Electro Ball",
+                "Grass Knot",
+                "Iron Tail"
+            ]
         },
         "Meowth": {
             "type": ["Normal"],
             "ability": ["Pick Up"],
-            "moves": {
-                "0": "Scratch",
-                "1": "Fake Out",
-                "2": "Bite",
-                "3": "Foul Play"
-            }
+            "moves": [
+                "Scratch",
+                "Fake Out",
+                "Bite",
+                "Foul Play"
+            ]
         },
         "Psyduck": {
             "type": ["Water"],
             "ability": ["Cloud Nine", "Damp"],
-            "moves": {
-                "0": "Scratch",
-                "1": "Water Gun",
-                "2": "Confusion",
-                "3": "Zen Headbutt"
-            }
+            "moves": [
+                "Scratch",
+                "Water Gun",
+                "Confusion",
+                "Zen Headbutt"
+            ]
         },
         "Machop": {
             "type": ["Fighting"],
             "ability": ["No Guard", "Guts"],
-            "moves": {
-                "0": "Bullet Punch",
-                "1": "Brick Break",
-                "2": "Karate Chop",
-                "3": "Strength"
-            }
+            "moves": [
+                "Bullet Punch",
+                "Brick Break",
+                "Karate Chop",
+                "Strength"
+            ]
         },
         "Cubone": {
             "type": ["Ground"],
             "ability": ["Rock Head", "Lightning Rod"],
-            "moves": {
-                "0": "Headbutt",
-                "1": "Bone Club",
-                "2": "Brutal Swing",
-                "3": "Brick Break"
-            }
+            "moves": [
+                "Headbutt",
+                "Bone Club",
+                "Brutal Swing",
+                "Brick Break"
+            ]
         },
         "Eevee": {
             "type": ["Normal"],
             "ability": ["Run Away", "Adaptability"],
-            "moves": {
-                "0": "Bite",
-                "1": "Tackle",
-                "2": "Swift",
-                "3": "Quick Attack"
-            }
+            "moves": [
+                "Bite",
+                "Tackle",
+                "Swift",
+                "Quick Attack"
+            ]
         },
         "Chikorita": {
             "type": ["Grass"],
             "ability": ["Overgrow"],
-            "moves": {
-                "0": "Ancient Power",
-                "1": "Razor Leaf",
-                "2": "Tackle",
-                "3": "Grass Knot"
-            }
+            "moves": [
+                "Ancient Power",
+                "Razor Leaf",
+                "Tackle",
+                "Grass Knot"
+            ]
         },
         "Cyndaquil": {
             "type": ["Fire"],
             "ability": ["Blaze"],
-            "moves": {
-                "0": "Quick Attack",
-                "1": "Ember",
-                "2": "Double Kick",
-                "3": "Facade"
-            }
+            "moves": [
+                "Quick Attack",
+                "Ember",
+                "Double Kick",
+                "Facade"
+            ]
         },
         "Totodile": {
             "type": ["Water"],
             "ability": ["Torrent"],
-            "moves": {
-                "0": "Metal Claw",
-                "1": "Water Gun",
-                "2": "Ice Fang",
-                "3": "Scratch"
-            }
+            "moves": [
+                "Metal Claw",
+                "Water Gun",
+                "Ice Fang",
+                "Scratch"
+            ]
         },
         "Treecko": {
             "type": ["Grass"],
             "ability": ["Overgrow"],
-            "moves": {
-                "0": "Quick Attack",
-                "1": "Absorb",
-                "2": "Dragon Breath",
-                "3": "Iron Tail"
-            }
+            "moves": [
+                "Quick Attack",
+                "Absorb",
+                "Dragon Breath",
+                "Iron Tail"
+            ]
         },
         "Torchic": {
             "type": ["Fire"],
             "ability": ["Blaze"],
-            "moves": {
-                "0": "Quick Attack",
-                "1": "Ember",
-                "2": "Low Kick",
-                "3": "Peck"
-            }
+            "moves": [
+                "Quick Attack",
+                "Ember",
+                "Low Kick",
+                "Peck"
+            ]
         },
         "Mudkip": {
             "type": ["Water"],
             "ability": ["Torrent"],
-            "moves": {
-                "0": "Mud Bomb",
-                "1": "Water Gun",
-                "2": "Tackle",
-                "3": "Mud Slap"
-            }
+            "moves": [
+                "Mud Bomb",
+                "Water Gun",
+                "Tackle",
+                "Mud Slap"
+            ]
         },
         "Skitty": {
             "type": ["Normal"],
             "ability": ["Cute Charm"],
-            "moves": {
-                "0": "Fake Out",
-                "1": "Echoed Voice",
-                "2": "Charge Beam",
-                "3": "Grass Knot"
-            }
+            "moves": [
+                "Fake Out",
+                "Echoed Voice",
+                "Charge Beam",
+                "Grass Knot"
+            ]
         }
     }
 }

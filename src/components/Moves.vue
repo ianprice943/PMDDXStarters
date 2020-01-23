@@ -3,7 +3,7 @@
         <div>
             <h3>Moves</h3>
         </div>
-        <div>{{ curMovesArr }}</div>
+        <div>{{ fullList }}</div>
         <div v-for="(attributes, move) in fullList" v-bind:key="move" v-bind:value="attribues">
             <div>
                 <p>{{ move }}</p>
@@ -18,7 +18,7 @@ import movesJSON from '../../public/moves.json';
 export default {
     name: 'Moves',
     props: {
-        curMoves: Object,
+        curMoves: Array,
     },
     watch: {
         moves: function () {
@@ -27,21 +27,17 @@ export default {
     },
     data() {
         return {
-            fullList: [],
-            curMovesArr: [],
+            fullList: {},
         }
     },
     methods: {
         assignMoveData: function (curMoves) {
-            this.fullList = [];
-            this.curMovesArr = Array.from(curMoves);
-            this.curMovesArr.forEach(curMove => this.pushMoves(curMove));
+            this.fullList = {};
+            curMoves.forEach(curMove => this.pushMoves(curMove));
         },
-        pushMove: function (curMove) {
+        pushMoves: function (curMove) {
             let attributes = movesJSON.moves[curMove];
-            let moveObject = {};
-            moveObject[curMove] = attributes;
-            this.fullList.push(moveObject);
+            this.fullList[curMove] = attributes;
         }
     },
     beforeMount() {
