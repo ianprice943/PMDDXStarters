@@ -52,7 +52,7 @@
         },
         "Psyduck": {
             "type": ["Water"],
-            "ability": ["Cloud Nine", "Damp"],
+            "ability": ["Cloud Nine"],
             "moves": [
                 "Scratch",
                 "Water Gun",
@@ -62,7 +62,7 @@
         },
         "Machop": {
             "type": ["Fighting"],
-            "ability": ["No Guard", "Guts"],
+            "ability": ["Guts"],
             "moves": [
                 "Bullet Punch",
                 "Brick Break",
@@ -72,7 +72,7 @@
         },
         "Cubone": {
             "type": ["Ground"],
-            "ability": ["Rock Head", "Lightning Rod"],
+            "ability": ["Lightning Rod"],
             "moves": [
                 "Headbutt",
                 "Bone Club",
@@ -82,7 +82,7 @@
         },
         "Eevee": {
             "type": ["Normal"],
-            "ability": ["Run Away", "Adaptability"],
+            "ability": ["Adaptability"],
             "moves": [
                 "Bite",
                 "Tackle",
@@ -147,7 +147,7 @@
                 "Mud Bomb",
                 "Water Gun",
                 "Tackle",
-                "Mud Slap"
+                "Mud-Slap"
             ]
         },
         "Skitty": {

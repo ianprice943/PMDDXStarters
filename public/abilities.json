@@ -1,18 +1,14 @@
 {
     "abilities": {
-        "Adaptablity": "Boosts the power of the Pokémon's moves that match its type.",
-        "Blaze": "Boosts the power of Fire-type moves when HP is low.",
-        "Cloud Nine": "Changes the weather to clear.",
-        "Cute Charm": "Causes attackers to become infatuated.",
-        "Damp": "Prevents any explosions on the dungeon floor.",
-        "Guts": "Boosts Attack if the Pokémon has any status problems.",
-        "Lightning Rod": "Attracts Electric-type moves.",
-        "No Guard": "Allows Pokémon to ignore stat modifications to accuracy and evasion.",
-        "Overgrow": "Boosts the power of Grass-type moves when HP is low.",
-        "Pick Up": "Finds items if the Pokémon is not holding anything.",
-        "Rock Head": "Prevents damage from the recoil of moves such as Take Down.",
-        "Run Away": "Becomes terrified and flees when HP gets low. Leaders will resist this urge.",
-        "Static": "Paralyzes attackers.",
-        "Torrent": "Boosts the power of Water-type moves when HP is low."
+        "Adaptablity": "This Ability increases the power of moves that are the same type as the Pokemon.",
+        "Blaze": "When the Pokemon's HP is low, the power of Fire-type moves goes up.",
+        "Cloud Nine": "This Ability causes the floor to have Ineffective Weather, removing the effects of weather.",
+        "Cute Charm": "When the Pokemon is hit with a contact move, like Tackle or Scratch, the attacker sometimes gets Infatuated.",
+        "Guts": "When the Pokemon is affected by a bad status condition, like poison or a burn, the power of its physical moves goes up..",
+        "Lightning Rod": "The Electric-type moves of enemies in the same room are drawn to the Pokemon and absorbed. When the Pokemon absorbs Electric-type moves, its Sp. Atk goes up.",
+        "Overgrow": "When the Pokemon's HP is low, the power of Grass-type moves goes up.",
+        "Pick Up": "When the Pokemon goes to a different floor, it may pick up an item. However, there will be places where there is nothing for the pokemon to pick up.",
+        "Static": "When the Pokemon is hit with a contact move, like Tackle or Scratch, the attacker is sometimes afflicted with Paralysis.",
+        "Torrent": "When the Pokemon's HP is low, the power of Water-type moves goes up."
     }
 }
