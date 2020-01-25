@@ -43,6 +43,10 @@
         display: flex;
         margin: 0 .5em 0 0;
     }
+    figure > img {
+        max-width: 100%;
+        height: auto;
+    }
     .pokemonPicture {
         margin: auto 0;
     }
@@ -54,5 +58,16 @@
     .typePictureRow {
         display: flex;
         flex-direction: row;
+    }
+    .typePictureRow > figure > img {
+        width: 48px;
+    }
+    @media only screen and (max-width: 359px){
+        .typePictureRow {
+            flex-direction: column;
+        }
+        .typePictureRow > figure {
+            margin: 0 0 .5em;
+        }
     }
 </style>

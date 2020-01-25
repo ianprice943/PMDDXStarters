@@ -1,5 +1,5 @@
 <template>
-  <div id="title">Pokemon Mystery Dungeon DX Starters</div>
+  <div id="title">Pokemon Mystery Dungeon Rescue Team DX Starters</div>
 </template>
 <script>
     export default {

@@ -50,6 +50,7 @@ export default {
         border: 1px solid #000;
         border-radius: 5px;
         box-shadow: 4px 4px;
+        background: #fff;
     }
     .ability-title {
         font-size: 1.5em;

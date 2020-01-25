@@ -3,9 +3,12 @@
     <div class="sidebar-backdrop" v-on:click="closeSideBarPanel" v-if="isPanelOpen"></div>
     <transition name="slide">
       <div v-if="isPanelOpen" class="sidebar-panel">
+        <figure>
+          <img src="..\assets\Pokemon Mystery Dungeon Rescue Team DX Logo.png" alt="Pokemon Mystery Dungeon Rescue Team DX Logo">
+        </figure>
         <slot>
           <nav>
-            <ul>
+            <ul v-on:click="closeSideBarPanel">
               <li>
                 <router-link :to="{ name: 'Home'}">Home</router-link>
               </li>
@@ -71,7 +74,7 @@
     name: 'SideBar',
     methods: {
       closeSideBarPanel() {
-        mutations.toggleNav
+        mutations.toggleNav();
       }
     },
     computed: {
@@ -83,6 +86,10 @@
 </script>
 
 <style scoped>
+  figure > img {
+    max-width: 100%;
+    height: auto;
+  }
   .slide-enter-active,
   .slide-leave-active {
     transition: transform 0.2s ease;
@@ -112,7 +119,6 @@
     top: 0;
     height: 100vh;
     z-index: 999;
-    padding: 2em 0 0 0;
     width: 15%;
   }
 

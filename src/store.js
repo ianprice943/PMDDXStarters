@@ -1,3 +1,4 @@
+//made from regenrek's vuejs Sidebar guide
 import Vue from "vue";
 
 export const store = Vue.observable({

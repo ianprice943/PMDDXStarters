@@ -50,13 +50,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin: 2em;
+  color: #000;
+  padding: 1em;
+  background: linear-gradient(to bottom, #FF3123 45%, #003AE4 55%);
 }
 #header {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  /*background: linear-gradient(to bottom, #FF3123 50%, #008AE4 50%);*/
 }
 #main {
   display: flex;
