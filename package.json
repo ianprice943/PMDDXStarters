@@ -9,6 +9,7 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "cache-loader": "^4.1.0",
     "core-js": "^3.4.4",
     "express": "^4.17.1",
     "mime": "^2.4.4",
