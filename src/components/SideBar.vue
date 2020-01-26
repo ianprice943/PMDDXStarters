@@ -4,7 +4,7 @@
     <transition name="slide">
       <div v-if="isPanelOpen" class="sidebar-panel">
         <figure>
-          <img src="..\assets\Pokemon Mystery Dungeon Rescue Team DX Logo.png" alt="Pokemon Mystery Dungeon Rescue Team DX Logo">
+          <img src="../assets/PMDRTDXLogo.png" alt="Pokemon Mystery Dungeon Rescue Team DX Logo">
         </figure>
         <slot>
           <nav>
