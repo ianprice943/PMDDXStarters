@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <figure>
-      <img src="..\assets\Pokemon Mystery Dungeon Rescue Team DX Logo.png" alt="Pokemon Mystery Dungeon Rescue Team DX Logo">
+      <img src="..\assets\PMDRTDXLogo.png" alt="Pokemon Mystery Dungeon Rescue Team DX Logo">
     </figure>
     <h2>Welcome to the PMDRTDX Starters App</h2>
     <p>
