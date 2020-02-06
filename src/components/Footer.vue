@@ -22,5 +22,6 @@
     margin: 0 auto;
     font-size: .75em;
     padding-top: 1em;
+    color: #EEEEEE;
   }
 </style>

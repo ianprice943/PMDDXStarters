@@ -95,6 +95,7 @@
     }
     .dark {
         background: #705847;
+        color: #EEEEEE;
     }
     .ice {
         background: #98D8D8;
@@ -107,6 +108,7 @@
     }
     .dragon {
         background: #7038F8;
+        color: #EEEEEE;
     }
     .rock {
         background: #B8A038;

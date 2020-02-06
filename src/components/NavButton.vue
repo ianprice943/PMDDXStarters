@@ -1,5 +1,5 @@
 <template>
-    <div id="nav" :class="{ 'active' : isActive }" v-on:click.prevent="toggle">
+    <div id="nav" v-bind:class="responsive()" v-on:click.prevent="toggle">
         <slot>
             <button type="button" class="nav-button" title="Menu">
                 <span class="hidden">Toggle menu</span>
@@ -18,9 +18,24 @@
     } from '../store.js';
     export default {
         name: 'NavButton',
+        props: {
+            isMobile: Boolean
+        },
+        data() {
+            return {
+                classArray: []
+            }
+        },
         methods: {
             toggle() {
                 mutations.toggleNav();
+            },
+            responsive() {
+                if(this.isMobile) {
+                    return 'is-mobile';
+                } else {
+                    return 'is-desktop';
+                }
             }
         },
         computed: {
@@ -116,5 +131,29 @@
 
     #nav.active .nav-bar--3 {
         transform: rotate(-45deg)
+    }
+
+    @media only screen and (max-width: 500px) {
+        .is-mobile {
+            display: block;
+        }
+
+        .is-desktop {
+            display: none;
+        }
+    }
+
+    @media only screen and (min-width: 501px) {
+        .is-mobile {
+            display: none;
+        }
+
+        .is-desktop {
+            display: block;
+        }
+
+        .nav-button {
+            transform: rotate(180deg);
+        }
     }
 </style>

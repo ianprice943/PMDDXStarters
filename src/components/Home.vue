@@ -27,6 +27,7 @@ export default {
 .home {
   margin: 0 auto;
   padding: 0 1em;
+  color: #EEEEEE;
 }
 h3 {
   margin: 40px 0 0;
