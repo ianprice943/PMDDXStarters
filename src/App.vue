@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <div id="header">
+      <NavButton v-bind:isMobile=false />
       <Title />
-      <NavButton />
+      <NavButton v-bind:isMobile=true />
     </div>
     <div id="main">
       <SideBar />
@@ -58,7 +59,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /*background: linear-gradient(to bottom, #FF3123 50%, #008AE4 50%);*/
 }
 #main {
   display: flex;
