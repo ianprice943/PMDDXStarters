@@ -1,6 +1,10 @@
 # Pokemon Mystery Dungeon DX Starters
 
+## Written By Ian Price in VueJS and Express.js
+If you would like to run this project yourself, please continue reading
+
 ## Project setup
+After cloning the repo run the following command
 ```
 npm install
 ```
@@ -15,10 +19,5 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Final notes
+eslint will not allow console statements with the default setup. Please modify your eslint config if you wish to enable this.
