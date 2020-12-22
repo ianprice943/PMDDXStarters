@@ -5,10 +5,10 @@
     </figure>
     <h2>Welcome to the PMDRTDX Starters App</h2>
     <p>
-      This app is to help players understand who can be a starter in PMDDX, as well as what each starter Pokemon's ability and moves are.
+      This app is to help players understand who can be a starter in PMDRTDX, as well as what each starter Pokemon's ability and moves are.
     </p>
     <p>
-      Choose a pokemon from the navigation menu in the top right to get started!
+      Choose a pokemon from the navigation menu to get started!
     </p>
   </div>
 </template>
