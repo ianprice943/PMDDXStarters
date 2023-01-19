@@ -1,5 +1,7 @@
 # Pokemon Mystery Dungeon DX Starters
 
+As of 2023 this repository has been archived
+
 ## Written By Ian Price in VueJS and Express.js
 If you would like to run this project yourself, please continue reading
 
